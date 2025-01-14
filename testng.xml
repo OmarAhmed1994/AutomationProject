@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Automation22/courseAuto">
+        <classes>
+
+            <class name="RegisterPageTest"></class>
+            <class name="LoginPageTest"></class>
+            <class name="TestCasePageTest"></class>
+            <class name="ContactPageTest"></class>
+            <class name="ProductPageTest"></class>
+
+        </classes>
+
+    </test></suite>
