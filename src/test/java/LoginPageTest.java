@@ -23,7 +23,7 @@ public class LoginPageTest extends TestBase {
         loginPage.loginToYourAccount();
         String Text = loginPage.loginToYourAccount();
         System.out.println(Text);
-        loginPage.loginInfo("omaraabdelba93@gmail.com","123456GG");
+        loginPage.loginInfo("omaraabdelba95@gmail.com","123456GG");
         loginPage.loginEle.click();
         loginPage.LoggedInAsUserName();
         String text3 = loginPage.LoggedInAsUserName();
