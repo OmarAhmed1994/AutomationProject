@@ -27,7 +27,7 @@ public class RegisterPageTest extends TestBase {
         String text = registerPage.newSignUpText();
         softAssert.assertEquals(text, "New User Signup!");
         System.out.println(text);
-        registerPage.sendValue("Omar", "omaraabdelba95@gmail.com" );
+        registerPage.sendValue("Omar", "omaraabdelba11@gmail.com" );
         String text1 = registerPage.enterAccountInfo();
         softAssert.assertEquals(text1,"Enter Account Information");
         System.out.println(text1);

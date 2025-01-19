@@ -116,6 +116,8 @@ public class ProductPageTest extends TestBase{
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         productPage.viewCardBut();
         productPage.proceedToCheckout();
+
+        
     }
 
 
